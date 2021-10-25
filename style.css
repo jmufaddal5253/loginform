@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding:0;
+    background: url(123.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    font-family: Arial;
+}
+.login{
+    width: 300px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%);
+    color:white;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 40px 25px;
+    border-radius: 10px;
+}
+h1{
+    margin:0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+}
+.login h1{
+    background-color: tomato;
+    border-radius: 6px;
+    margin: 0;
+    padding:10px;
+    font-weight: bold;
+    transition: 0.4s ease-in;
+
+}
+.login h1:hover{
+    color:black;
+    background-color: white;
+    letter-spacing: 2px;
+}
+
+.login input{
+    width: 100%;
+    margin-bottom: 18px;
+    border-radius: 5px;
+}
+.login input[type="username"], input[type="password"]
+{
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    outline: none;
+    color: white;
+    height: 20px;
+    font-size: 16px;
+}
+.login input[type="submit"]
+{
+    border: none;
+    outline:none;
+    height: 30px;
+    color: white;
+    background: black;
+    font-size: 17px;
+    border-radius: 20px;
+    border: 1px solid tomato;
+    cursor: pointer;
+    transition: 0.4s ease-in;
+    letter-spacing: 1px;
+}
+.login input[type="submit"]:hover{
+    color: tomato;
+    background: white;
+    font-weight: bolder;
+}
+.login a{
+    text-decoration: none;
+    line-height: 18px;
+    font-size: 14px;
+    color:lightsalmon;
+}
+.login a:hover{
+    color:white;
+}
